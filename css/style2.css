@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(36, 28, 21, 1);
+}
+
+
+.navbar a {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.phone-emoji {
+  padding-right: 10px;
+}
+
+.mail-emoji {
+  padding-right: 10px;
+}
+
+.line {
+  height: 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: left;
+  width: 100px;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: goldenrod;
+}
+
+.grid-item-2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.book {
+  background-color: rgba(255, 248, 237, 1);
+  margin: 30px;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.book h1 {
+  font-size: 28px;
+  padding: 10px;
+  color: black;
+  font-family: 'Gloock', serif;
+}
+
+.book h1 span {
+  color: goldenrod;
+}
+
+.book input {
+  background-color: rgba(192, 155, 90, 1);
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Gloock', serif;
+}
+
+.book input:nth-last-child(1) {
+  background: rgb(199, 150, 65);
+  color: #fff;
+  font-size: large;
+}
+
+
+h2 {
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Gloock', serif;
+
+}
+
+h2:before,
+h2:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h2:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h2:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+.rooms {
+  background-color: rgba(255, 248, 237, 1);
+  padding: 20px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+  max-width: 500px;
+}
+
+.rooms .text {
+  padding: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.rooms p {
+  margin: 20px 0;
+  opacity: 0.7;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 1);
+}
+
+.rooms h3 {
+  font-family: 'Gloock', serif;
+}
+
+.rooms h4 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: end;
+  justify-content: right;
+}
+
+.rooms h4 span {
+  font-size: 15px;
+  font-weight: 400;
+  color: goldenrod;
+}
+
+.image img {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gloock', serif;
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  background-color: rgba(196, 162, 104, 1);
+}
+
+
+
+.footer-container {
+  background-color: rgba(36, 28, 21, 1);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer article {
+
+  margin: 4rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer h5 {
+  font-size: 22px;
+  margin-bottom: 2rem;
+  font-family: 'Gloock', serif;
+}
+
+
+@media screen and (max-width:900px) {
+  .book {
+    width: 100%;
+    height: 100%;
+  }
+
+  .book form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .book input {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .book {
+    width: 75%;
+    height: 100%;
+  }
+
+  .book form {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .book input {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:680px) {
+  .navbar {
+    max-width: 75%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width:680px) {
+  .grid-item-3 {
+    max-width: 100%;
+  }
+
+  .grid-item-4 {
+    grid-column: 1/span 2;
+  }
+
+  .grid-item-5 {
+    grid-column: 1/span 2;
+  }
+
+  .grid-item-6 {
+    grid-column: 1/span 2;
+  }
+
+  .grid-item-7 {
+    grid-column: 1/span 2;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer h5 {
+    font-size: 22px;
+  }
+}
