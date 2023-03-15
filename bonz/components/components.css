@@ -1,0 +1,157 @@
+.components {
+    border: 1px solid #736f6f;
+    margin: 1;
+    background-color: rgb(170, 157, 127);
+
+}
+
+/*navbar*/
+
+.navbar a {
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .phone-emoji {
+    padding-right: 10px;
+  }
+  
+  .mail-emoji {
+    padding-right: 10px;
+  }
+  
+  .line {
+    height: 2rem;
+  }
+
+/*text style*/
+
+h2 {
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Gloock', serif;
+}
+
+.book h1 {
+    font-size: 28px;
+    padding: 10px;
+    color: black;
+    font-family: 'Gloock', serif;
+}
+
+.rooms .text {
+    padding: 30px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.rooms p {
+    margin: 20px 0;
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.rooms h3 {
+    font-family: 'Gloock', serif;
+}
+
+.rooms h4 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+
+.rooms h4 span {
+    font-size: 15px;
+    font-weight: 400;
+    color: goldenrod;
+}
+
+
+
+/*book form buttons*/
+.book {
+    background-color: rgba(255, 248, 237, 1);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 50px;
+  }
+
+.book h1 span {
+    color: goldenrod;
+}
+
+.book input {
+    background-color: rgba(192, 155, 90, 1);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Gloock', serif;
+}
+
+.book input:nth-last-child(1) {
+    background: rgb(199, 150, 65);
+    color: #fff;
+    font-size: large;
+}
+h2:before,
+h2:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h2:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h2:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+input {
+    outline: none;
+    border: none;
+}
+/*book now button*/
+
+.book-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gloock', serif;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(196, 162, 104, 1);
+}
+
+/*image*/
+
+.image img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 20px;
+  }
