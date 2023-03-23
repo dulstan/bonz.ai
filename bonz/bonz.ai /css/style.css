@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +11,7 @@ body {
 }
 
 .navbar a {
-  color: white;
+  color: rgba(255, 255, 255, 1);
 }
 
 .navbar {
@@ -41,7 +44,7 @@ body {
 }
 
 .eko-roomsHref {
-  color: rgba(196, 162, 104, 1);
+  color: rgba(172, 143, 0, 1);
 }
 
 .local-nav {
@@ -50,7 +53,7 @@ body {
 }
 
 .local-nav ul {
-  color: goldenrod;
+  color: rgba(172, 143, 0, 1);
   list-style: none;
   display: flex;
   gap: 50px;
@@ -76,7 +79,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-top: 1rem;
-  color: white;
+  color: rgba(255, 255, 255, 1);
 }
 
 .middle-img {
@@ -117,28 +120,28 @@ body {
 
 .bonz-tittle {
   padding: 2rem;
-  color: white;
-  font-family: 'Gloock', serif;
+  color: rgba(255, 255, 255, 1);
+  font-family: Montserrat;
 }
 
 .bonz-info {
-  color: white;
+  color: rgba(255, 255, 255, 1);
   padding: 2rem;
   font-size: 15px;
   letter-spacing: 2px;
   line-height: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .reserve {
-  font-family: 'Gloock', serif;
+  font-family: Montserrat;
   border: none;
   padding: 15px;
   margin-left: 2rem;
   border-radius: 20px;
-  color: white;
+  color: rgba(255, 255, 255, 1);
   font-size: 20px;
-  background-color: rgba(196, 162, 104, 1);
+  background-color: rgba(172, 143, 0, 1);
 }
 
 
@@ -167,7 +170,7 @@ body {
 
 .footer-container {
   background-color: rgba(36, 28, 21, 1);
-  color: white;
+  color: rgba(255, 255, 255, 1);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   
@@ -181,12 +184,12 @@ footer article {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 footer h2 {
   margin-bottom: 2rem;
-  font-family: 'Gloock', serif;
+  font-family: Montserrat;
 }
 
 
@@ -256,11 +259,6 @@ footer h2 {
     margin-right:2rem;
   }
 }
-
-
-
-
-
 
 
 @media screen and (max-width:500px) {
